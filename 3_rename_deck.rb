@@ -13,7 +13,7 @@ Dir.chdir temp_dir do
   system "rm #{name.inspect}"
 
   value = `sqlite3 collection.anki2 "select decks from col;"`.strip
-  value.sub! '"Default"', '"Serbian en.wiktionary Davinci AI"'
+  value.sub! '"Default"', Config.deck_name.inspect
   v = value.inspect[1..-2]
   system %( echo "update col set decks='#{v}';" | sqlite3 collection.anki2 )
 

@@ -8,6 +8,7 @@ here = Pathname __dir__
 
 config = {
   words_count: 10_000,
+  deck_name: 'Serbian en.wiktionary ChatGPT/Davinci AI',
   trans: Configuration.new(
     cache_dir: here + 'cache',
     fetch_pause: 2, # sec.
