@@ -40,6 +40,16 @@ words.each { |serbian_word|
   data << { 'type' => 'Basic', 'fields' => { 'Front' => front, 'Back' => back }}
 }
 
+Config.file.deck_yaml.write data
+Config.file.deck_anki.unlink if Config.file.deck_anki.exist?
+cmd = [
+  'anki-cli-unofficial load',
+  Config.file.deck_yaml.to_s.inspect,
+  Config.file.deck_anki.to_s.inspect,
+] * ' '
+system cmd
+
+
 BEGIN {
   def with_absolute_links html
     html
@@ -53,12 +63,3 @@ BEGIN {
       .map { |x| "- #{x}" } * ?\n
   end
 }
-
-Config.file.deck_yaml.write data
-Config.file.deck_anki.unlink if Config.file.deck_anki.exist?
-cmd = [
-  'anki-cli-unofficial load',
-  Config.file.deck_yaml.to_s.inspect,
-  Config.file.deck_anki.to_s.inspect,
-] * ' '
-system cmd

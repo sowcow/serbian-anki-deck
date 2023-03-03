@@ -13,9 +13,10 @@ config = {
     fetch_pause: 2, # sec.
   ),
   usage: Configuration.new(
-    cache_dir: here + 'cache', # to have inheritance of a kind...?
-    fetch_pause: 2, # sec.
-    cligpt: File.expand_path('~/go/bin/cligpt'),
+    cache_dir: here + 'cache', # I wonder if adding implicit inheritance of a kind could play well here
+    fetch_pause: 25, # 25 sec. - <150 requests/hour - below empirical chat-gpt limit that I got
+    command: 'chatgpt', # - for ChatGPT through chatgpt-wrapper
+    #command: File.expand_path('~/go/bin/cligpt'), # - for Davinci through cligpt instead, no need for pause then
   ),
   wiktionary: Configuration.new(
     cache_dir: here + 'cache',
@@ -25,7 +26,7 @@ config = {
     input: FileAccess.provide(here + 'data/sr_50k.txt'),
     words: FileAccess.provide(here + 'data/words.yml', YAML),
     deck_yaml: FileAccess.provide(here + 'data/deck.yml', YAML),
-    deck_anki: FileAccess.provide(here + 'data/Serbian-en-Wiktionary-Davinci-AI.apkg'),
+    deck_anki: FileAccess.provide(here + 'data/Serbian-en-Wiktionary-AI.apkg'),
   ),
 }
 

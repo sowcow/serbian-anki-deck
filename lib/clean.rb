@@ -10,6 +10,7 @@ module Clean
   def examples text
     text.lines.select { |x| x =~ /\(/ }
       .map(&:strip)
+      .reject { |x| x =~ /Warning:|Note:/ }
       .map { |x|
         pattern = LIST_ITEM_CLEAN.find { |re| re =~ x }
         if pattern

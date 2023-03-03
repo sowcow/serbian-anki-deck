@@ -23,7 +23,7 @@ class Usage
   end
 
   def fetch_usage_examples word
-    result = `#{@config.cligpt} 'multiple example sentences in Serbian that use word "#{word}" in different forms and different positions, highlight the word with star right after it and write translations sentences in english in parenthesis'`.strip
+    result = `#{@config.command} 'multiple example sentences in Serbian that use Serbian word "#{word}" in different forms and different positions, highlight the word with star right after it and write translations sentences in english in parenthesis'`.strip
 
     throw "no usage examples for word #{word}" if result == ''
     sleep @config.fetch_pause if @config.fetch_pause
@@ -44,7 +44,8 @@ if __FILE__ == $0
       config = OpenStruct.new(
         cache_dir: @dir,
         fetch_pause: nil,
-        cligpt: File.expand_path('~/go/bin/cligpt'),
+        command: 'chatgpt',
+        #command: File.expand_path('~/go/bin/cligpt'),
       )
       @usage = Usage.new config
     end
