@@ -15,6 +15,8 @@ Feel free to create an issue but keep in mind that I don't check these often.
 
 Quality-wise there is rare random unrelated wikidictionary content presence but it is not worth looking into.
 
+TODO: test usability outside of a tablet. Update title if needed.
+
 # How
 
 It should be easy to adapt to other languages.

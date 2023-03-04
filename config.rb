@@ -15,7 +15,7 @@ config = {
   ),
   usage: Configuration.new(
     cache_dir: here + 'cache', # I wonder if adding implicit inheritance of a kind could play well here
-    fetch_pause: 25, # 25 sec. - <150 requests/hour - below empirical chat-gpt limit that I got
+    fetch_pause: 10, # sec.
     command: 'chatgpt', # - for ChatGPT through chatgpt-wrapper
     #command: File.expand_path('~/go/bin/cligpt'), # - for Davinci through cligpt instead, no need for pause then
   ),

@@ -22,10 +22,16 @@ class Usage
     end
   end
 
-  def fetch_usage_examples word
+  def fetch_usage_examples word, backoff_min = 10
     result = `#{@config.command} 'multiple example sentences in Serbian that use Serbian word "#{word}" in different forms and different positions, highlight the word with star right after it and write translations sentences in english in parenthesis'`.strip
 
-    throw "no usage examples for word #{word}" if result == ''
+    #throw "no usage examples for word #{word}" if result == ''
+    if result == ''
+      L.info "backoff #{backoff_min} minutes"
+      sleep 60 * backoff_min
+      return fetch_usage_examples word, backoff_min * 2
+    end
+
     sleep @config.fetch_pause if @config.fetch_pause
     result
   end
