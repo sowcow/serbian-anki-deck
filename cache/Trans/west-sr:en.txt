@@ -1,0 +1,9 @@
+west
+
+[1mwest[22m
+
+Translations of [4mwest[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mwest[24m
+    [1mwest[22m, [1mWest[22m

@@ -1,0 +1,9 @@
+doc
+
+[1mAssoc[22m
+
+Translations of [4mdoc[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mdoc[24m
+    [1mAssoc[22m, [1massistant professor[22m

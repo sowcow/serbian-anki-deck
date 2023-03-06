@@ -1,0 +1,21 @@
+predlog
+
+[1mthe proposal[22m
+
+Definitions of [4mpredlog[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+noun
+[1m    proposal[22m
+        предлог, просидба
+[1m    motion[22m
+        предлог, покрет, гест, кретање
+[1m    suggestion[22m
+        предлог, сугестија
+[1m    proposition[22m
+        предлог, пропозиција
+[1m    preposition[22m
+        предлог
+
+[4mpredlog[24m
+    [1mthe proposal[22m, [1mproposal[22m, [1ma suggestion[22m

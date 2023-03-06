@@ -1,0 +1,17 @@
+gost
+
+[1mguest[22m
+
+Definitions of [4mgost[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+noun
+[1m    guest[22m
+        гост, посетилац, званица
+[1m    visitor[22m
+        посетилац, гост
+[1m    caller[22m
+        гост, посетилац
+
+[4mgost[24m
+    [1mguest[22m, [1mthe guest[22m

@@ -1,0 +1,9 @@
+radnici
+
+[1mworkers[22m
+
+Translations of [4mradnici[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mradnici[24m
+    [1mworkers[22m, [1mthe workers[22m

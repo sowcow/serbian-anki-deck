@@ -1,0 +1,9 @@
+dog
+
+[1mdog[22m
+
+Translations of [4mdog[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mdog[24m
+    [1mdog[22m, [1mDog[22m

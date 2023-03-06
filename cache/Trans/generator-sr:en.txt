@@ -1,0 +1,17 @@
+generator
+
+[1mgenerator[22m
+
+Definitions of [4mgenerator[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+noun
+[1m    generator[22m
+        генератор, произвођач
+[1m    dynamo[22m
+        генератор
+[1m    generatrix[22m
+        генератор
+
+[4mgenerator[24m
+    [1mgenerator[22m, [1mthe generator[22m

@@ -1,0 +1,9 @@
+heder
+
+[1mheader[22m
+
+Translations of [4mheder[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mheder[24m
+    [1mheader[22m, [1mthe header[22m

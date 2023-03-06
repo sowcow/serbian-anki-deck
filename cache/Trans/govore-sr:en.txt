@@ -1,0 +1,9 @@
+govore
+
+[1mthey speak[22m
+
+Translations of [4mgovore[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mgovore[24m
+    [1mthey speak[22m, [1mthey are speaking[22m

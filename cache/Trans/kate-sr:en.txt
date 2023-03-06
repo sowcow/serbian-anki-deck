@@ -1,0 +1,9 @@
+kate
+
+[1mKate[22m
+
+Translations of [4mkate[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mkate[24m
+    [1mKate[22m, [1mcat[22m

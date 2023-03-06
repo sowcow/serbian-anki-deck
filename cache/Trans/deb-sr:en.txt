@@ -1,0 +1,9 @@
+deb
+
+[1mdebt[22m
+
+Translations of [4mdeb[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mdeb[24m
+    [1mdebt[22m, [1mDeb[22m

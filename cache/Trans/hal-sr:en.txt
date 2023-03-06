@@ -1,0 +1,9 @@
+hal
+
+[1mhal[22m
+
+Translations of [4mhal[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mhal[24m
+    [1mhal[22m, [1mHall[22m

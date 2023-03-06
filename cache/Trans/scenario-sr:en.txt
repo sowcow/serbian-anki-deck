@@ -1,0 +1,17 @@
+scenario
+
+[1mscenario[22m
+
+Definitions of [4mscenario[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+noun
+[1m    scenario[22m
+        сценарио
+[1m    screenplay[22m
+        сценарио
+[1m    film script[22m
+        сценарио
+
+[4mscenario[24m
+    [1mscenario[22m, [1mthe script[22m

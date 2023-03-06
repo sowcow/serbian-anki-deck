@@ -1,0 +1,9 @@
+font
+
+[1mfont[22m
+
+Translations of [4mfont[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mfont[24m
+    [1mfont[22m, [1mthe font[22m

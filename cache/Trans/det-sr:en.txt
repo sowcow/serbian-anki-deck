@@ -1,0 +1,9 @@
+det
+
+[1mdet[22m
+
+Translations of [4mdet[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mdet[24m
+    [1mdet[22m, [1mchild[22m

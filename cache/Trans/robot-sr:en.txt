@@ -1,0 +1,15 @@
+robot
+
+[1mrobot[22m
+
+Definitions of [4mrobot[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+noun
+[1m    robot[22m
+        робот
+[1m    automaton[22m
+        робот
+
+[4mrobot[24m
+    [1mrobot[22m, [1mthe robot[22m

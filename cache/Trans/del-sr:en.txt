@@ -1,0 +1,9 @@
+del
+
+[1mpart[22m
+
+Translations of [4mdel[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mdel[24m
+    [1mpart[22m, [1mPart[22m

@@ -1,0 +1,15 @@
+tekst
+
+[1mtext[22m
+
+Definitions of [4mtekst[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+noun
+[1m    text[22m
+        текст, спис
+[1m    lines[22m
+        текст, улоге
+
+[4mtekst[24m
+    [1mtext[22m, [1mthe text[22m

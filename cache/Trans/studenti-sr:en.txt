@@ -1,0 +1,9 @@
+studenti
+
+[1mstudents[22m
+
+Translations of [4mstudenti[24m
+[ [4mсрпски[24m -> [1mEnglish[22m ]
+
+[4mstudenti[24m
+    [1mstudents[22m, [1mthe students[22m
