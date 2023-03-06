@@ -1,3 +1,5 @@
+require 'nokogiri'
+
 module Clean
   module_function
 
@@ -33,7 +35,11 @@ module Clean
     }
     xs.unshift first
     xs.reject! { |x| x =~ /Definitions of/ || x =~ /<b>English/ }
-    xs.map { |x| x.strip }.join(?\n).strip.gsub "\n\n\n", "\n\n"
+    html = xs.map { |x| x.strip }.join(?\n).strip.gsub "\n\n\n", "\n\n"
+
+    doc = Nokogiri.HTML html
+    doc.css('img').remove
+    doc.to_html
   end
 end
 

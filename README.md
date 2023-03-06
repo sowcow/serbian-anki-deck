@@ -22,7 +22,7 @@ I didn't verify the content since I'm a learner myself.
 Actually for this reason AI-produced example sentences go below of other content.
 Feel free to create an issue at https://github.com/sowcow/serbian-anki-deck/issues but keep in mind that I don't check these often.
 
-Also quality-wise there is rare random unrelated wikidictionary content presence but it is not worth looking into.
+Also quality-wise there is rare random unrelated Wiktionary content presence but it is not worth looking into.
 
 Also example sentences cover only the first 6k cards.
 
