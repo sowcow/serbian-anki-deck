@@ -6,7 +6,7 @@ class Usage
     @config = config
   end
 
-  def get_examples word
+  def get_examples word, empty_if_absent=false
     place = Pathname @config.cache_dir
     place += self.class.name
     file = place + "#{word}-usage-examples"
@@ -14,6 +14,7 @@ class Usage
     if file.exist?
       File.read file
     else
+      return '' if empty_if_absent
       L.info "fetching usage: #{word}"
       text = fetch_usage_examples word
       file.parent.mkpath unless file.parent.exist?

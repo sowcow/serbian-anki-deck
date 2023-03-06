@@ -8,7 +8,8 @@ here = Pathname __dir__
 
 config = {
   words_count: 10_000,
-  deck_name: 'Serbian en.wiktionary ChatGPT/Davinci AI',
+  deck_name: 'Serbian en.wiktionary GPT',
+  fetch_new_examples: false, # NOTE: `false` means only already cached examples are used or empty text otherwise
   trans: Configuration.new(
     cache_dir: here + 'cache',
     fetch_pause: 2, # sec.
@@ -27,7 +28,7 @@ config = {
     input: FileAccess.provide(here + 'data/sr_50k.txt'),
     words: FileAccess.provide(here + 'data/words.yml', YAML),
     deck_yaml: FileAccess.provide(here + 'data/deck.yml', YAML),
-    deck_anki: FileAccess.provide(here + 'data/Serbian-en-Wiktionary-AI.apkg'),
+    deck_anki: FileAccess.provide(here + 'data/Serbian-en-Wiktionary-GPT.apkg'),
   ),
 }
 

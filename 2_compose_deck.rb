@@ -23,17 +23,19 @@ words.each { |serbian_word|
 
   front = serbian_word
 
+  articles = []
+  articles.push with_absolute_links wiktionary.get_html serbian_word
+  articles.push with_absolute_links wiktionary.get_html Transliterate.to_cyrillic serbian_word
+  articles.sort_by! { |x| -Transliterate.to_latin(x).length }
+  articles.reject! { |x| x.strip.empty? }
+
   back = <<-END.strip
 <div style='text-align: left'>
 #{ Clean.trans trans.get_html(serbian_word, 'sr:en') }
 <hr />
-#{ with_absolute_links wiktionary.get_html Transliterate.to_cyrillic serbian_word }
+#{ articles * '<hr />' }
 <hr />
-#{ with_absolute_links wiktionary.get_html serbian_word }
-<hr />
-<pre>
-#{ with_dashes Clean.examples usage.get_examples serbian_word }
-</pre>
+#{ use_list Clean.examples usage.get_examples(serbian_word, !Config.fetch_new_examples) }
 </div>
   END
 
@@ -58,8 +60,9 @@ BEGIN {
       .gsub('<a href="/', '<a href="https://en.wiktionary.org/')
   end
 
-  def with_dashes text
-    text.strip.lines.map(&:strip)
-      .map { |x| "- #{x}" } * ?\n
+  def use_list text
+    text = text.strip.lines.map(&:strip)
+      .map { |x| "<li>#{x}</li>" } * ?\n
+    '<ol>%s</ol>' % text
   end
 }
