@@ -22,6 +22,9 @@ grouped.sort_by! { |x| -x[1] }
 
 words = grouped.map { |x| x[0] }
 
+blacklist = Config.file.generated_blacklist.read + Config.file.manual_blacklist.read
+words.reject! { |x| blacklist.include? x }
+
 words = words.take Config.words_count
 
 Config.file.words.write words

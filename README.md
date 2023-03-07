@@ -10,6 +10,8 @@ Translation goes before Wiktionary articles because it is shorter and more conce
 For new words it makes sense to not rely on translation only and to check Wiktionary articles info.
 AI-generated example sentences should not be solely considered to be the source of truth too.
 
+AI has been useful in filtering questionable words though (I processed only the first 5k words).
+
 The idea of the deck is inspired by the existing "Serbo-Croatian Frequency Word List" deck
 while I have it way more usable and try to be as complete as possible.
 
@@ -18,15 +20,11 @@ The deck tries to be very informative so tablet could be the best way to use it.
 # But
 
 It goes as is.
-I didn't verify the content since I'm a learner myself.
+I didn't verify the content manually since I'm a learner myself.
 Actually for this reason AI-produced example sentences go below of other content.
 Feel free to create an issue at https://github.com/sowcow/serbian-anki-deck/issues but keep in mind that I don't check these often.
 
 Also quality-wise there is rare random unrelated Wiktionary content presence but it is not worth looking into.
-
-Also example sentences cover only the first 6k cards.
-
-Also it is a 10k cards deck and updating it is probably inconvenient, so it may get out of sync with Wiktionary articles.
 
 # How
 

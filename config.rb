@@ -7,7 +7,7 @@ here = Pathname __dir__
 
 
 config = {
-  words_count: 10_000,
+  words_count: 5_000,
   deck_name: 'Serbian en.wiktionary GPT',
   fetch_new_examples: false, # NOTE: `false` means only already cached examples are used or empty text otherwise
   trans: Configuration.new(
@@ -26,6 +26,8 @@ config = {
   ),
   file: Configuration.new(
     input: FileAccess.provide(here + 'data/sr_50k.txt'),
+    generated_blacklist: FileAccess.provide(here + 'data/generated_blacklist.yml', YAML),
+    manual_blacklist: FileAccess.provide(here + 'data/manual_blacklist.yml', YAML),
     words: FileAccess.provide(here + 'data/words.yml', YAML),
     deck_yaml: FileAccess.provide(here + 'data/deck.yml', YAML),
     deck_anki: FileAccess.provide(here + 'data/Serbian-en-Wiktionary-GPT.apkg'),
